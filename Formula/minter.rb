@@ -1,26 +1,26 @@
 class Minter < Formula
   desc "Spec compiler and validator for structured behavioral specifications"
   homepage "https://github.com/arnaudlewis/minter-releases"
-  version "0.1.0"
+  version "1.0.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v0.1.0/minter-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "104e09f086eca63ecfb53ded531cb96542b6b64de9cb9bb0a3791d2eba176499"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.0/minter-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5e694bcbff7f2bce098ae1e0a7f6b24a03ff78318abb0cff24563a98a08c1fc5"
     else
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v0.1.0/minter-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b4acb0ec6febe7dcb365d3d85154d2a9e68f1aa6af841336e11509ee83b2a1a1"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.0/minter-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a605f6fbe62625bc502ddcb6cfef204130f05a86069b21283bb92149bab0260e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v0.1.0/minter-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c932480b8aa9d98fc2a4c45b444504a7c093f5692410ac85102bad564f1020b"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.0/minter-v1.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a8a7f4a9cc35996ac86cb958ed19f756d2d4652ff0c842e999c746d1dac0a8a6"
     else
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v0.1.0/minter-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db6f25c0555c9e8a1e4aa5a4a5453d54dbdccee70055b56525fb3b56b3c6e80f"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.0/minter-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1ee052af99e5a60d6096dd5da504a30ca2fe1e545c23b62ae6adce29de1df020"
     end
   end
 
