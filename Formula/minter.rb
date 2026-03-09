@@ -1,26 +1,26 @@
 class Minter < Formula
   desc "Spec compiler and validator for structured behavioral specifications"
   homepage "https://github.com/arnaudlewis/minter-releases"
-  version "1.0.1"
+  version "1.1.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.1/minter-v1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "252a11049c12f242d85bdf1607e18ad8e60db7ae1bce5b5d8dde1a3eb8c9f523"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "73284143570f672214addb1d6b9ffb44f4e09a794fa3416df78dd7ed0c92b85d"
     else
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.1/minter-v1.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "0ca9b85202ceaef6b93fa64cb52d3973f2f490c8d9fd4a1ab50317b05dfc6e73"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c5288a69c9d27c0e8a79b304fe96b43486097bc38ae38c2b055d76814d6770d2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.1/minter-v1.0.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ccc43b475c00dbc79f6d9fd00effc022847a6e1c8e3f63bf71d0fc06e1b675a6"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5fce0af7c0bc3a13c5ccd40db2e819bbcc4e0fabdd0c39a464e2e36cf156bbe7"
     else
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.0.1/minter-v1.0.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3a85b26a8ba193066096faa935ac11534c3d48ff110ec18263fdebee8a267bf0"
+      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "95d591376c2b7b7f75f36a72c537a24b1ac4a1d1da760d982c2e787e907b6961"
     end
   end
 
