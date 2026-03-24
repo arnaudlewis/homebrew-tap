@@ -1,26 +1,26 @@
 class Minter < Formula
   desc "Spec compiler and validator for structured behavioral specifications"
-  homepage "https://github.com/arnaudlewis/minter-releases"
-  version "1.1.0"
-  license :cannot_represent
+  homepage "https://github.com/arnaudlewis/minter"
+  version "1.1.1"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "73284143570f672214addb1d6b9ffb44f4e09a794fa3416df78dd7ed0c92b85d"
+      url "https://github.com/arnaudlewis/minter/releases/download/v1.1.1/minter-v1.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f2c5a6a6f523b0d8f1a2a5ea013905ff8a583f07d3be88bc01c27f8c1873b6ff"
     else
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c5288a69c9d27c0e8a79b304fe96b43486097bc38ae38c2b055d76814d6770d2"
+      url "https://github.com/arnaudlewis/minter/releases/download/v1.1.1/minter-v1.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "9ca2ff0667229183151096b63a0e5d0e1d7b967c76b63f16704be896919a0aba"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5fce0af7c0bc3a13c5ccd40db2e819bbcc4e0fabdd0c39a464e2e36cf156bbe7"
+      url "https://github.com/arnaudlewis/minter/releases/download/v1.1.1/minter-v1.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "326ffbc54b9cff8f7a722f0b9cf8dc226d94a7648a4ecac604639dad56eb428e"
     else
-      url "https://github.com/arnaudlewis/minter-releases/releases/download/v1.1.0/minter-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "95d591376c2b7b7f75f36a72c537a24b1ac4a1d1da760d982c2e787e907b6961"
+      url "https://github.com/arnaudlewis/minter/releases/download/v1.1.1/minter-v1.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "de85ae48e58cdac51ae976d67965bd1884c9b162c05edea9be735981a7cd9d7b"
     end
   end
 
