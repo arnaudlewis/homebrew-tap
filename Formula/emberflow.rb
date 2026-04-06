@@ -7,20 +7,20 @@ class Emberflow < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/arnaudlewis/emberflow/releases/download/emberflow-v0.1.0/emberflow-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d6fcfbf2da3aa84d8dcf128e552f9da851040396c1ee25b500d5c32576760c46"
+      sha256 "0174451a81992c68a14f19d048e17673abc7c2e9248021950976520ab4a8fec9"
     else
       url "https://github.com/arnaudlewis/emberflow/releases/download/emberflow-v0.1.0/emberflow-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1cdea8a383c902c72c65df0b968f4b65688f4ae54d6c772e89e7106e79b9b06a"
+      sha256 "e171cf526606ef3e3ededb49f7f518a3dd45956fd2895494f3a5ee59cc8a2f45"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/arnaudlewis/emberflow/releases/download/emberflow-v0.1.0/emberflow-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "eaf25c4d5ff4dc8d40e32e4cb239042b9522905603d57a9145754fe70edee93e"
+      sha256 "3e7143ceb5ea4bc15dfdeead6d662f42fc08202790ade2ddb23dff2c140d8693"
     else
       url "https://github.com/arnaudlewis/emberflow/releases/download/emberflow-v0.1.0/emberflow-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a7fa93f09fbc958cfe008bef55d2d39dfac45bc88faa603c1702bf391d16f257"
+      sha256 "d299b1ef5956b4ad3ee340c712043de95f552fcff81e1233dc4f95d11dfb58cc"
     end
   end
 
