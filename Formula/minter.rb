@@ -1,26 +1,26 @@
 class Minter < Formula
   desc "Spec compiler and validator for structured behavioral specifications"
   homepage "https://github.com/arnaudlewis/minter"
-  version "2.1.0"
+  version "2.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter/releases/download/v2.1.0/minter-v2.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7bea2167a824a492b7680e3a0ba8177ee8e836f5ff76ba917a0feea6bb5e4d44"
+      url "https://github.com/arnaudlewis/minter/releases/download/v2.2.0/minter-v2.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e2d95c0358fa03204f96394303f0e1254fb8ee2317965a7b9808029abcf99f9f"
     else
-      url "https://github.com/arnaudlewis/minter/releases/download/v2.1.0/minter-v2.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6793c56664ddb78374ae45ecc656a0383ad6a6f302a24187f96a63bc3adcacdf"
+      url "https://github.com/arnaudlewis/minter/releases/download/v2.2.0/minter-v2.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f0fb034f8bc402c8e55934bafe238e54f63bfd0d0f48cbc467ec3f20d7c0a7d7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/arnaudlewis/minter/releases/download/v2.1.0/minter-v2.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "154112db282fc2ca8980040488af3a38c2a1d2aa3cecd52de4145e7a1a7cace6"
+      url "https://github.com/arnaudlewis/minter/releases/download/v2.2.0/minter-v2.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8bb699cef10003b719a3cdf67fc3ddd84c9cb7766e706c56e85cd7fd310ba5fa"
     else
-      url "https://github.com/arnaudlewis/minter/releases/download/v2.1.0/minter-v2.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b944249a9c2fa77891b5cf915ca42e931a363674688f1ee16f20d4748576a0c1"
+      url "https://github.com/arnaudlewis/minter/releases/download/v2.2.0/minter-v2.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e7f49243822683d721ef38c20a907c8e0eef8a34bc6d8a1637b6f024404f2ac5"
     end
   end
 
